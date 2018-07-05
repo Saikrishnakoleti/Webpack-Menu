@@ -1,0 +1,21 @@
+@import "../../node_modules/bootswatch/dist/flatly/variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootswatch/dist/flatly/bootswatch";
+.dropdown-menu .dropdown-item{
+    text-transform: capitalize;
+    font-size: 1rem
+}
+.flex{
+    display:flex;
+	flex-direction: right;
+    width: 50px;
+}
+.control{
+    width:900px;
+    display: inline-block;
+}
+.compound{
+    width: 200px;
+    display: inline-block;
+
+}
